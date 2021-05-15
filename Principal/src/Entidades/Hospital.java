@@ -126,7 +126,7 @@ public class Hospital {
                 + "Numero de especialidades: %s\n"
                 + "Lista de médicos ingresados: \n%s\n"
                 + "Lista de enferemeros o enfermeras ingesados: \n%s\n"
-                + "Su sueldo a pagar por cada mes es de: %s \n",
+                + "Su sueldo a pagar por cada mes es de: %s\n",
                 nombre, direccion, ciudad.getNombre(), ciudad.getProvinciaNombre(),
                 especialidades, MedicosInfo(), EnfermerosInfo(), sueldosCancelar);
     }

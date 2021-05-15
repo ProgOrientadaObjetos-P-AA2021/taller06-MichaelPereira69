@@ -36,6 +36,7 @@ public class Principal {
         System.out.println("Enfermeros ingresados: ");
         int cantidadEnfermeros = Integer.parseInt(leer.nextLine());
         Medicos(hospital, cantidadMedicos);
+        leer.nextLine();
         Enfermeros(hospital, cantidadEnfermeros);
         hospital.calcularSueldosCancelar();
         System.out.println(hospital);
@@ -60,7 +61,8 @@ public class Principal {
             System.out.println("Datos de Enfermeros " + (i + 1));
             System.out.print("Nombre: ");
             String nombre = leer.nextLine();
-            System.out.print("Tpo nombramiento: ");
+            
+            System.out.print("Tipo nombramiento: ");
             String contrato = leer.nextLine();
             System.out.print("Sueldo: ");
             double sueldo = leer.nextDouble();
